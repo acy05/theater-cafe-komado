@@ -46,7 +46,8 @@ test('state transitions support rapid repetition and calendar bounds',async({pag
  for(let i=0;i<12;i++)await page.locator('[data-month="-1"]').click();
  await expect(page.locator('#calendar-month')).toHaveText('2026年 11月');await expect(page.locator('[data-month="-1"]')).toBeDisabled();
  await page.locator('[data-date="2026-11-28"]').click();await expect(page.locator('[data-date="2026-11-28"]')).toBeFocused();
- const button=page.locator('.slot').first();await button.click();await expect(page.locator('dialog')).toBeVisible();
+ await page.locator('[name="purpose"]').selectOption('その他');await page.locator('[name="guests"]').selectOption('5');await page.locator('[name="details"]').fill('操作確認用の利用相談です。');
+ const button=page.getByRole('button',{name:'選択内容を確認する'});await button.click();await expect(page.locator('dialog')).toBeVisible();
  await page.keyboard.press('Escape');await expect(button).toBeFocused();
 });
 test('keyboard skip link is focusable, visible on focus and reaches the content',async({page},info)=>{

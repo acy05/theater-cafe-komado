@@ -24,7 +24,7 @@ Playwrightはインストール済みのGoogle Chromeを使用します。`npm t
 - `MOTION_SYSTEM.md`：入場・操作・スクロール・reduced motion。
 - `index.html`：お店の入口、番組表、喫茶、貸切、お店だより、営業案内。
 - `events.html`：種別の絞り込み、詳細、人数、金額、確認、予約体験。
-- `space.html`：想定条件、日付・時間の選択、問い合わせへの日時引き継ぎ。
+- `space.html`：空き日を選び、開始・終了時間、利用目的、人数、相談内容を入力する予約相談体験。選択内容を問い合わせへ引き継ぎます。
 - `journal.html`：記事一覧・全文・絞り込み、記事管理デモ。
 - `contact.html`：必須入力、メール形式、確認・修正のデモ。
 

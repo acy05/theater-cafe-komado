@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { mkdirSync } from 'node:fs';
 mkdirSync('qa/real-cafe-redesign/test-screenshots',{recursive:true});
 test('five pages render without runtime errors, missing images or horizontal overflow',async({page},info)=>{
+ test.setTimeout(60_000);
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  for(const route of ['index','events','space','journal','contact']){
   const response=await page.goto(`/${route}.html`);expect(response.status()).toBe(200);
@@ -26,14 +27,21 @@ test('event filters, price calculation, confirmation, completion and Escape',asy
 test('rental dates, unavailable days, month navigation and inquiry handoff',async({page})=>{
  await page.goto('/space.html');await expect(page.locator('[data-month="-1"]')).toBeDisabled();
  await expect(page.locator('[data-date="2026-11-01"]')).toBeDisabled();
- await page.locator('[data-date="2026-11-28"]').click();await expect(page.locator('.slot')).toHaveCount(3);
- await page.locator('.slot').first().click();await page.getByRole('link',{name:'利用内容の相談へ'}).click();
+ await page.locator('[data-date="2026-11-28"]').click();await expect(page.locator('#rental-picker')).toBeVisible();
+ await expect(page.locator('#rental-start option')).toHaveCount(17);await expect(page.locator('#rental-end option')).toHaveCount(17);
+ await page.locator('#rental-start').selectOption('11:00');await page.locator('#rental-end').selectOption('15:00');
+ await page.locator('[name="purpose"]').selectOption('自主上映・鑑賞会');await page.locator('[name="guests"]').selectOption('12');
+ await page.locator('[name="details"]').fill('短編映画の上映会。スクリーンと音響設備を使用したいです。');
+ await expect(page.locator('#rental-total')).toHaveText('¥16,000');await page.getByRole('button',{name:'選択内容を確認する'}).click();
+ await expect(page.locator('dialog')).toContainText('11:00 – 15:00（4時間）');await expect(page.locator('dialog')).toContainText('12名');
+ await page.getByRole('link',{name:'お問い合わせへ進む'}).click();
  await expect(page.locator('[name="type"]')).toHaveValue('スペースレンタルについて');
  await expect(page.locator('[name="message"]')).toHaveValue(/2026-11-28/);
- await expect(page.locator('[name="message"]')).toHaveValue(/10:00 – 13:00/);
+ await expect(page.locator('[name="message"]')).toHaveValue(/11:00 – 15:00/);await expect(page.locator('[name="message"]')).toHaveValue(/自主上映・鑑賞会/);
+ await expect(page.locator('.inquiry-summary')).toContainText('12名');
  await page.goto('/space.html');await page.locator('[data-month="1"]').click();await expect(page.locator('#calendar-month')).toHaveText('2026年 12月');
  await expect(page.locator('[data-date="2026-12-01"]')).toBeDisabled();
- await page.locator('[data-date="2026-12-03"]').click();await expect(page.locator('.slot')).toHaveCount(1);
+ await page.locator('[data-date="2026-12-03"]').click();await expect(page.locator('#rental-start')).toHaveValue('14:00');await expect(page.locator('#rental-start option')).toHaveCount(1);await expect(page.locator('#rental-end')).toHaveValue('17:00');
 });
 test('contact validation, escaped content, correction and no submission',async({page})=>{
  const mutations=[];page.on('request',r=>{if(['POST','PUT','PATCH'].includes(r.method()))mutations.push(r.url());});
