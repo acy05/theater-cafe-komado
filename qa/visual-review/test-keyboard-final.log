@@ -1,0 +1,18 @@
+
+> yohaku-theater-cafe@1.0.0 test
+> playwright test --grep keyboard skip
+
+
+Running 3 tests using 1 worker
+
+(node:83733) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (4.7s)
+(node:83772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [tablet] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (5.0s)
+(node:83802) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [mobile] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (4.5s)
+
+  3 passed (29.4s)

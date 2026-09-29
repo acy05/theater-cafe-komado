@@ -1,0 +1,23 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+
+# Local visual QA evidence is kept in the workspace, not published in Git.
+qa/screenshots/
+qa/visual-review/baseline/
+qa/visual-review/final/
+qa/visual-review/motion/
+qa/visual-review/source-before/
+qa/real-cafe-redesign/after/
+qa/real-cafe-redesign/before/
+qa/real-cafe-redesign/final-run-diagnostics/
+qa/real-cafe-redesign/motion/
+qa/real-cafe-redesign/references/
+qa/real-cafe-redesign/source-before/
+qa/real-cafe-redesign/states/
+qa/real-cafe-redesign/test-screenshots/
+
+# Original/generated source images and superseded image are retained locally.
+assets/*.png
+assets/theater.webp

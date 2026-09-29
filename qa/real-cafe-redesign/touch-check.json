@@ -1,0 +1,26 @@
+[
+  {
+    "width": 320,
+    "dateWidth": 44,
+    "dateHeight": 52,
+    "scrollWidth": 320
+  },
+  {
+    "width": 390,
+    "dateWidth": 46.28125,
+    "dateHeight": 52,
+    "scrollWidth": 390
+  },
+  {
+    "width": 820,
+    "dateWidth": 96.28125,
+    "dateHeight": 68,
+    "scrollWidth": 820
+  },
+  {
+    "width": 1440,
+    "dateWidth": 87.15625,
+    "dateHeight": 63,
+    "scrollWidth": 1440
+  }
+]

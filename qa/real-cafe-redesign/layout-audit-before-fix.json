@@ -1,0 +1,354 @@
+[
+  {
+    "route": "index",
+    "width": 320,
+    "scrollWidth": 320,
+    "widows": [
+      {
+        "selector": "H2.",
+        "text": "この場所で、ひらいてみませんか。",
+        "lines": [
+          "この場所で、",
+          "ひらいてみません",
+          "か。"
+        ]
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 320,
+    "scrollWidth": 320,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 320,
+    "scrollWidth": 320,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 320,
+    "scrollWidth": 320,
+    "widows": [
+      {
+        "selector": "SPAN.journal-title",
+        "text": "スクリーンのそばに、喫茶の席を。",
+        "lines": [
+          "スクリーンのそばに、喫茶の席",
+          "を。"
+        ]
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 320,
+    "scrollWidth": 320,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 375,
+    "scrollWidth": 375,
+    "widows": [
+      {
+        "selector": "SPAN.journal-title",
+        "text": "11月末のオープンに向けて、準備をはじめました。",
+        "lines": [
+          "11月末のオープンに向けて、準備をはじめまし",
+          "た。"
+        ]
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 375,
+    "scrollWidth": 375,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 375,
+    "scrollWidth": 375,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 375,
+    "scrollWidth": 375,
+    "widows": [
+      {
+        "selector": "SPAN.journal-title",
+        "text": "小さな上映会や貸切のご相談について。",
+        "lines": [
+          "小さな上映会や貸切のご相談につい",
+          "て。"
+        ]
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 375,
+    "scrollWidth": 375,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 390,
+    "scrollWidth": 390,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 390,
+    "scrollWidth": 390,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 390,
+    "scrollWidth": 390,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 390,
+    "scrollWidth": 390,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 390,
+    "scrollWidth": 390,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 768,
+    "scrollWidth": 768,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 768,
+    "scrollWidth": 768,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 768,
+    "scrollWidth": 768,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 768,
+    "scrollWidth": 768,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 768,
+    "scrollWidth": 768,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 820,
+    "scrollWidth": 820,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 820,
+    "scrollWidth": 820,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 820,
+    "scrollWidth": 820,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 820,
+    "scrollWidth": 820,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 820,
+    "scrollWidth": 820,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 980,
+    "scrollWidth": 980,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 980,
+    "scrollWidth": 980,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 980,
+    "scrollWidth": 980,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 980,
+    "scrollWidth": 980,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 980,
+    "scrollWidth": 980,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "events",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "space",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "widows": [],
+    "overflow": []
+  },
+  {
+    "route": "contact",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "widows": [],
+    "overflow": []
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "status": "UNVERIFIED_PROVISIONAL",
+  "local_frontend_gates": "PASS_WITH_ISOLATED_RERUN",
+  "selected_route": "minimal",
+  "fallback_route": null,
+  "escalated_to": null,
+  "blocked_due_to_routing": false,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "model_source": "user_override",
+  "subagents": 0,
+  "fresh_codex_exec": false,
+  "skill_usage": [],
+  "mcp_usage": [],
+  "image_generation": "built-in imagegen, two original concept photos",
+  "unmet_gate": [
+    "Production server and domain configuration not supplied",
+    "Real venue name, address, hours, event and pricing information not supplied",
+    "No live booking database, concurrency/seat inventory, email, shared CMS, authentication or payment integration",
+    "No supplied Figma file or exact visual-reference image",
+    "No Safari, Firefox, physical mobile device or assistive-technology certification"
+  ],
+  "independence_not_proven": true,
+  "quality_not_verified": [
+    "Client design acceptance",
+    "Production operation and real customer transactions"
+  ],
+  "incomplete_verification": [
+    "Production integrations",
+    "Cross-browser and assistive-technology testing",
+    "Final full run had one 30s timeout; isolated rerun passed; root cause not proven"
+  ],
+  "provider_usage": {
+    "raw_events_available": false,
+    "turn_delta_available": false,
+    "quota_savings": "NOT_DEMONSTRATED"
+  },
+  "verification": {
+    "build": "PASS",
+    "syntax": "PASS",
+    "full_tests_initial": 30,
+    "interaction_regression": 6,
+    "full_tests_final_built": {
+      "initial_passed": 29,
+      "initial_timeouts": 1,
+      "isolated_rerun_passed": 1,
+      "unique_cases_passed": 30,
+      "clean_full_run": false
+    },
+    "layout_combinations": 45,
+    "layout_findings": 0,
+    "date_touch_targets": [
+      {
+        "width": 320,
+        "dateWidth": 44,
+        "dateHeight": 52,
+        "scrollWidth": 320
+      },
+      {
+        "width": 390,
+        "dateWidth": 46.28125,
+        "dateHeight": 52,
+        "scrollWidth": 390
+      },
+      {
+        "width": 820,
+        "dateWidth": 96.28125,
+        "dateHeight": 68,
+        "scrollWidth": 820
+      },
+      {
+        "width": 1440,
+        "dateWidth": 87.15625,
+        "dateHeight": 63,
+        "scrollWidth": 1440
+      }
+    ]
+  },
+  "preserved_previous_results": [
+    "qa/VALIDATION.md",
+    "qa/visual-review/REPORT.md",
+    "qa/visual-review/production-metadata.json",
+    "qa/real-cafe-redesign/source-before"
+  ],
+  "date": "2026-09-28"
+}

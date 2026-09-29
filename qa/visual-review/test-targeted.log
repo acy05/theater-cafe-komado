@@ -1,0 +1,30 @@
+
+> yohaku-theater-cafe@1.0.0 test
+> playwright test --project=desktop --grep rental dates|contact validation|journal add|keyboard skip
+
+
+Running 4 tests using 1 worker
+
+(node:83276) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › qa/site.spec.js:25:1 › rental dates, unavailable days, month navigation and inquiry handoff (8.6s)
+  ✓  2 [desktop] › qa/site.spec.js:37:1 › contact validation, escaped content, correction and no submission (8.4s)
+  ✓  3 [desktop] › qa/site.spec.js:48:1 › journal add/edit persistence, safe text and JSON export (10.5s)
+  ✓  4 [desktop] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (5.3s)
+
+  4 passed (38.1s)
+
+> yohaku-theater-cafe@1.0.0 test
+> playwright test --project=tablet --project=mobile --grep keyboard skip
+
+
+Running 2 tests using 1 worker
+
+(node:83351) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [tablet] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (7.9s)
+(node:83386) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [mobile] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (9.3s)
+
+  2 passed (28.0s)

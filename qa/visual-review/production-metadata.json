@@ -1,0 +1,44 @@
+{
+  "selected_route": "minimal",
+  "fallback_route": null,
+  "escalated_to": null,
+  "blocked_due_to_routing": false,
+  "model_decision": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "source": "user_override, supplied by active developer policy; no model switch performed",
+  "delegated_agents": 0,
+  "skills_used": [],
+  "mcp_used": [],
+  "scope": "browser-rendered refinement of the existing YOHAKU frontend",
+  "status": "UNVERIFIED_PROVISIONAL",
+  "unmet_gate": [
+    "external reference or approved Figma not supplied",
+    "client visual approval",
+    "live booking and CMS connections"
+  ],
+  "incomplete_verification": [
+    "real mobile devices",
+    "Safari and Firefox",
+    "production hosting"
+  ],
+  "independence_not_proven": true,
+  "insufficient_evidence": [
+    "raw provider usage events unavailable",
+    "turn token delta unavailable",
+    "account quota savings not demonstrated"
+  ],
+  "quality_not_verified": [
+    "production readiness",
+    "external reference fidelity"
+  ],
+  "existing_formal_results_overwritten": false,
+  "visual_iterations": 8,
+  "visual_iteration_limit": 10,
+  "scenarios_captured": 60,
+  "viewport_page_measurements": 45,
+  "unique_test_cases_passed": 30,
+  "initial_timeout_cases": 3,
+  "targeted_timeout_rechecks_passed": 3,
+  "observed_remaining_visual_defects": 0,
+  "verification_scope": "Chrome rendering and interaction at documented viewports; not real-device or production certification"
+}

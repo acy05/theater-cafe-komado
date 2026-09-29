@@ -1,0 +1,16 @@
+{
+  "name": "komado-theater-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4188",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4188",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7",
+    "@playwright/test": "^1.55.1"
+  }
+}

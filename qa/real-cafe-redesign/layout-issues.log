@@ -1,0 +1,67 @@
+[
+  {
+    "route": "index",
+    "width": 320,
+    "scrollWidth": 320,
+    "widows": [
+      {
+        "selector": "H2.",
+        "text": "この場所で、ひらいてみませんか。",
+        "lines": [
+          "この場所で、",
+          "ひらいてみません",
+          "か。"
+        ]
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 320,
+    "scrollWidth": 320,
+    "widows": [
+      {
+        "selector": "SPAN.journal-title",
+        "text": "スクリーンのそばに、喫茶の席を。",
+        "lines": [
+          "スクリーンのそばに、喫茶の席",
+          "を。"
+        ]
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "route": "index",
+    "width": 375,
+    "scrollWidth": 375,
+    "widows": [
+      {
+        "selector": "SPAN.journal-title",
+        "text": "11月末のオープンに向けて、準備をはじめました。",
+        "lines": [
+          "11月末のオープンに向けて、準備をはじめまし",
+          "た。"
+        ]
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "route": "journal",
+    "width": 375,
+    "scrollWidth": 375,
+    "widows": [
+      {
+        "selector": "SPAN.journal-title",
+        "text": "小さな上映会や貸切のご相談について。",
+        "lines": [
+          "小さな上映会や貸切のご相談につい",
+          "て。"
+        ]
+      }
+    ],
+    "overflow": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "scroll": 1440,
+    "missing": []
+  },
+  {
+    "name": "tablet",
+    "width": 820,
+    "scroll": 820,
+    "missing": []
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "scroll": 390,
+    "missing": []
+  }
+]

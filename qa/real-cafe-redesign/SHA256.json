@@ -1,0 +1,467 @@
+[
+  {
+    "file": "app.js",
+    "bytes": 18964,
+    "sha256": "f1feec071c4f6e1f668155bfd24db98271abc10fb5a69f0a1311f2f50a30c981"
+  },
+  {
+    "file": "style.css",
+    "bytes": 34813,
+    "sha256": "adfec1d6410b941f1a85141fb98bff8a4fccfc9055fa5a8ee11c61c2e11b9977"
+  },
+  {
+    "file": "index.html",
+    "bytes": 7611,
+    "sha256": "e40c00a6b463805d1b7da4a933ec92efc14b133da856a88565f71ab54ae8d87f"
+  },
+  {
+    "file": "events.html",
+    "bytes": 4175,
+    "sha256": "4fe07d2aae807f440db93c5d6e0fd3e462fde5a8efddb01b70c0749d89befc0b"
+  },
+  {
+    "file": "space.html",
+    "bytes": 6282,
+    "sha256": "1f1af13275366a902ad47288c2302ed611fe4487066f1d7761c48616d5d99d27"
+  },
+  {
+    "file": "journal.html",
+    "bytes": 5013,
+    "sha256": "5504819f64c9e15d24b1fe8f470fb0f18065c62a95ae9376755baf2c487572a9"
+  },
+  {
+    "file": "contact.html",
+    "bytes": 5056,
+    "sha256": "68301be78382928d3191909ecbb2ec868071648f5529ea6b3701bda0550768c3"
+  },
+  {
+    "file": "DESIGN_SYSTEM.md",
+    "bytes": 4401,
+    "sha256": "54b22b8d48ebaffb040934f92d25a7392fdd88f0dd7171e1ac033f6bad23afce"
+  },
+  {
+    "file": "MOTION_SYSTEM.md",
+    "bytes": 1215,
+    "sha256": "1e26c8cabedd77a261953bf591ff5a2359954d62b08c89c6b315b9ba765ce8ce"
+  },
+  {
+    "file": "README.md",
+    "bytes": 3054,
+    "sha256": "4e9a783f9a1b89c6daf2926f71c1225ffef1d34517371c6da4035a40e804b510"
+  },
+  {
+    "file": "package.json",
+    "bytes": 366,
+    "sha256": "23b8d25c1c047bcd4f3a2f3ec107bcc00e2a47294d44184027ea922bdc1ea917"
+  },
+  {
+    "file": "package-lock.json",
+    "bytes": 36827,
+    "sha256": "be23415edf94ab3a85f148b1007baaac96ff73e4599c5563bd824fd793bdc5fc"
+  },
+  {
+    "file": "qa/site.spec.js",
+    "bytes": 6668,
+    "sha256": "cccfc67765a792252a67de783e2144f3bb18fa247a86ae91aacbccc027eca041"
+  },
+  {
+    "file": "qa/visual-layout.spec.js",
+    "bytes": 4767,
+    "sha256": "8b15e6cba979edd7ca7e4ba87f60d1ed42c7d92f3ed28dc91e798c6ed9e91bc0"
+  },
+  {
+    "file": "assets/favicon.svg",
+    "bytes": 233,
+    "sha256": "0b34bdbff32d0f9bbf661f7369cfc472936f80e8978ef3de7081f8b3c2e86b1d"
+  },
+  {
+    "file": "assets/komado-cafe.webp",
+    "bytes": 201346,
+    "sha256": "c7b8c44ded191c6e70571e3ebc548ab6d47f67e01e334471e325d481b6daebe1"
+  },
+  {
+    "file": "assets/komado-coffee.webp",
+    "bytes": 174940,
+    "sha256": "e5a4ed3e2c8150aff4b69dac889162126ef17df6b2a9cbb8c201362c02564ead"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/contact-desktop.png",
+    "bytes": 148040,
+    "sha256": "9aad0ece2a4ac610a3637b46d3f53f4604bb073b769b956737be383d40155938"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/contact-mobile.png",
+    "bytes": 113665,
+    "sha256": "554b53ebcba4761d2cb5994893bc24dd8cdd9e71be05446240609d1551dff86f"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/contact-tablet.png",
+    "bytes": 122025,
+    "sha256": "a3cec37d35759bfac3aad2825f8ccd069dd7ca5cb044cb122a236fb3d16803f8"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/events-desktop.png",
+    "bytes": 171332,
+    "sha256": "51888ba715eaf91bfef975f3fb38976cc03571d1f31a387ab4404cefb5a0be00"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/events-mobile.png",
+    "bytes": 120317,
+    "sha256": "92aae17cfd71c3217331082b77e1864a66693a1a478d49237a6dc153d5450bf0"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/events-tablet.png",
+    "bytes": 142959,
+    "sha256": "93cd02f2253dfde411f8f9db129307699e36e594205ac610c05c821374d1e66c"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/index-desktop.png",
+    "bytes": 1569127,
+    "sha256": "3c1e3a041cef367aea0c03c59d329c542662d453128c12ee332e56a5875d35de"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/index-mobile.png",
+    "bytes": 627278,
+    "sha256": "a837bd6782c70af88601e176780f54fdbbd1b4ce82b216313cc1e41b29be972d"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/index-tablet.png",
+    "bytes": 888173,
+    "sha256": "f7893115e80c361eb5266d25429e8bd9c98232d862bdbc5b06d7d380dee25a24"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/journal-desktop.png",
+    "bytes": 116920,
+    "sha256": "9d62e673d0fb936ebc85016f2aee79f9e70b81b0311904c96a197b2c0887ead8"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/journal-mobile.png",
+    "bytes": 75080,
+    "sha256": "cd67a3c7b83053929f38624222608003ad2cb7e534843db252f6fda4acd87a04"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/journal-tablet.png",
+    "bytes": 91934,
+    "sha256": "ea17093fee3af3b7972030048d5ad61f6b17eb4fd2b1a989e1853186c51d4e9d"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/space-desktop.png",
+    "bytes": 791362,
+    "sha256": "f5ae0100f3569c6936f3a8e7450a8b8e081a46e82b8a328e0e977079cb994c52"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/space-mobile.png",
+    "bytes": 348150,
+    "sha256": "13c4c0cd79938e7567c0cec081283e44d2bb82e70566deb7a293d3c10c8a385b"
+  },
+  {
+    "file": "qa/real-cafe-redesign/test-screenshots/space-tablet.png",
+    "bytes": 513353,
+    "sha256": "4836dd5bcc2b9b19215202f26126bf759071b98a0c1ae3f708bd3f9789ba6901"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/desktop-entrance-1100.png",
+    "bytes": 707840,
+    "sha256": "4089fd0d70e46e99495f995177a46da84648176147bc04c857fd9093fbb44a4c"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/desktop-entrance-280.png",
+    "bytes": 702417,
+    "sha256": "82a37f0d521e3d0da384f8e787345cc579374a52e7121553a3675e3606ec8d42"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/desktop-entrance-50.png",
+    "bytes": 529426,
+    "sha256": "c95872d1b9f319ce8140e7b7ec88cca22d02ad882c012da24aafbe645d47a4ac"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/desktop-hover.png",
+    "bytes": 707896,
+    "sha256": "6a5d67908bbef02abc74640b0748df61e87e9eaec31b1f9ca23880f5f10fdb48"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/desktop-keyboard-skip.png",
+    "bytes": 709368,
+    "sha256": "314161ce3222d24d95b8c5bf20ce5837afa6e5d55cfb7fc78e9adbb8ef7425b4"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/mobile-entrance-1100.png",
+    "bytes": 210893,
+    "sha256": "03a69da60fd2444f3ad1cae615b5cc1b04d215a6564a3dfe85baa9f28dbf5d97"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/mobile-entrance-280.png",
+    "bytes": 208915,
+    "sha256": "b8607ca44529dbddbe7fcf3ef34600cd74bff4ddee6fbc8ff15d77fe3440f97d"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/mobile-entrance-50.png",
+    "bytes": 163101,
+    "sha256": "9638f47495f0d1b80bd804612615677c810ca4d6a27c9daaf507fdafeced75b8"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/mobile-keyboard-skip.png",
+    "bytes": 211085,
+    "sha256": "2a231126f32d3ea4a5c1c6f30c60e31c1e1d29fe7db2046ca5240cf286b7ae83"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/tablet-entrance-1100.png",
+    "bytes": 348797,
+    "sha256": "4a92404772c734882e9266aac225ccf9b15b8dfb4657c231c8c9b8587eedd099"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/tablet-entrance-280.png",
+    "bytes": 346604,
+    "sha256": "04712d2b09f759a9a067b7de5a925034b091a4f09558c9027d0424a854f899f0"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/tablet-entrance-50.png",
+    "bytes": 273819,
+    "sha256": "388bafe1194c0ac7d0b8a75407e40f7fc19a870237c3e49f6e5d39417ebee8f7"
+  },
+  {
+    "file": "qa/real-cafe-redesign/motion/tablet-keyboard-skip.png",
+    "bytes": 349332,
+    "sha256": "caf5db047211f470ef906a4f00444d6a0cbe27f9e781cd9772eac744fb0bdb90"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/article-desktop.png",
+    "bytes": 132813,
+    "sha256": "ff4d0276572085094da89bb1ea9d7d37db42120ae598e0ef00e4135511c920e2"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/article-final-1440.png",
+    "bytes": 115029,
+    "sha256": "b083c5c7b86ba9ccb1f650d561530a3135d2e3212d9c440eb840b1c20ec78077"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/article-final-320.png",
+    "bytes": 64666,
+    "sha256": "0d7320cbce8ae2dd5e88e7acc7b2de63b4607ba182bae8e6d03862f865fdc2e6"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/article-final-390.png",
+    "bytes": 78282,
+    "sha256": "ae42dda81a900b16c994942065af86147f224fbcde62aec4b5310c90e0cdc72d"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/article-final-820.png",
+    "bytes": 101128,
+    "sha256": "b65be04d148ee18d3c66d3bf3b5c9ad69d2c95f175cfe24a55b0e08e4eb3b6e4"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/article-mobile.png",
+    "bytes": 74464,
+    "sha256": "cb6235bea71fe5f44769971ba31b084698bdcfdd4a01e5c4864b448666816423"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/article-tablet.png",
+    "bytes": 115478,
+    "sha256": "1c7728dbf1ee638e6b191de6cda2983bb319f4e871551063ae6b65c185459a37"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/cafe-anchor-mobile.png",
+    "bytes": 213591,
+    "sha256": "8d87ebd4ac63e3db14417f6fa8a809193b4b2d7ff1bf477f37386baf94ff253b"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/cafe-anchor-tablet.png",
+    "bytes": 403340,
+    "sha256": "b89df3bee25453c507808870cb49b713c4a7ff1739fde4a3454f618212e17eec"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/calendar-desktop.png",
+    "bytes": 23433,
+    "sha256": "40de8667f57b753b6e728fd772b1d1c8e1464e6115553041f274f5f99d1cc128"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/calendar-final-1440.png",
+    "bytes": 23433,
+    "sha256": "40de8667f57b753b6e728fd772b1d1c8e1464e6115553041f274f5f99d1cc128"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/calendar-final-320.png",
+    "bytes": 19535,
+    "sha256": "bd1f49af3aca759b355418f137f59a9d69ec100592795ae359379d9d8620118b"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/calendar-final-390.png",
+    "bytes": 21233,
+    "sha256": "1b268d7c354b0d219ad22db6ec3230134b717095a53fba34ee08d2703bac62b1"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/calendar-final-820.png",
+    "bytes": 23905,
+    "sha256": "719ebccdecf72484c8684a4041193f4a4b35363a05f275b454687ae7dbdae7f1"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/calendar-mobile.png",
+    "bytes": 21233,
+    "sha256": "1b268d7c354b0d219ad22db6ec3230134b717095a53fba34ee08d2703bac62b1"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/calendar-tablet.png",
+    "bytes": 23905,
+    "sha256": "719ebccdecf72484c8684a4041193f4a4b35363a05f275b454687ae7dbdae7f1"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/contact-confirm-desktop.png",
+    "bytes": 105381,
+    "sha256": "d763ed8a9008b56b7b7722d73a3e89ecfe8def3c50978aae2e2a954e4fb896a1"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/contact-confirm-mobile.png",
+    "bytes": 45845,
+    "sha256": "68e8478f5b26a39139cdce92ea5e18293533ff7ea3817913faa640be9dfd6745"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/contact-confirm-tablet.png",
+    "bytes": 86166,
+    "sha256": "c9e691e7763a8f14fb54758e0d722ffdb310b12f1e68ddc60c3d866a44846e2d"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/editor-desktop.png",
+    "bytes": 42014,
+    "sha256": "b41bd214b08487936ce90c3129edea6f4305d77d2f32f456ed2e213fd125787b"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/editor-mobile.png",
+    "bytes": 38937,
+    "sha256": "487e7aec39b911e1c702dc2226bb273ea553e4be2883b101f848da7047a6f68a"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/editor-tablet.png",
+    "bytes": 40396,
+    "sha256": "f93e16099672a7167624a483a05d52f539eb7b23514e5101bef1eb167e577ce6"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/event-confirm-desktop.png",
+    "bytes": 143254,
+    "sha256": "9fd241e646a5748d2f450804f1ccca72ca14e561a3dc5b870851bfe100036413"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/event-confirm-mobile.png",
+    "bytes": 49588,
+    "sha256": "3e6e070a71bc65298bab8ee8a5c7e577d8502aaa95863f78d517c882a9d6fdd6"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/event-confirm-tablet.png",
+    "bytes": 102234,
+    "sha256": "68bb42440532c0f196553a6658ce012b8f4552d695ecf6918d0fb695e707431f"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/event-details-desktop.png",
+    "bytes": 162153,
+    "sha256": "9e56601562171791b07d42912d2cb2b149d5ce584f232ad757f3472c77b9da73"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/event-details-mobile.png",
+    "bytes": 66797,
+    "sha256": "60a7bd1611a93092d499b46154c9a93905136b4ed763508f23c68320c129291a"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/event-details-tablet.png",
+    "bytes": 119111,
+    "sha256": "69d20431dad8832c8855727e21fe8f26952ed941016ab692cceef6d060164987"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/menu-mobile.png",
+    "bytes": 202128,
+    "sha256": "7c751076fb0df12b6185505bba73cce2d76b229fe7b663da90be809e0def9350"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/menu-tablet.png",
+    "bytes": 185759,
+    "sha256": "eab31074d6d34f7f09778c4ca32595c0f297122581ac92046cc2217b7d601805"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/rental-confirm-desktop.png",
+    "bytes": 117865,
+    "sha256": "3299f394b8316ef5a5f5b41c30d2d4777302f0454d4bc99dd43da889c4aa3cb0"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/rental-confirm-mobile.png",
+    "bytes": 52464,
+    "sha256": "7390203592a7479c32e521aa135f553b3df9f2507e031a68693c27938661c313"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/rental-confirm-tablet.png",
+    "bytes": 99604,
+    "sha256": "939c27c5ffc465f4cbb4dd036106187418faa8b069c1ea683df7c40489edbe28"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/rental-final-1440.png",
+    "bytes": 98535,
+    "sha256": "c1913d1fbdacb6eef0aff2e89ff3d93c15f4eb4473abb95aab3744482f3021b4"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/rental-final-320.png",
+    "bytes": 57864,
+    "sha256": "7b0e89dcf5a54b77d7e0adc6845b7ea014b325d342badeb91977a1d2f0bed482"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/rental-final-390.png",
+    "bytes": 58723,
+    "sha256": "801c2e3ee2e2c17d809ba80b43cccb7257a1a5d0bc6f7c3864ae0454cd4d1216"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states/rental-final-820.png",
+    "bytes": 64629,
+    "sha256": "6cdc6ffa4f71fe7568875c4440ef40dc1045a3dc59b888e122b8f3f8d5ccf3fe"
+  },
+  {
+    "file": "qa/real-cafe-redesign/REPORT.md",
+    "bytes": 5554,
+    "sha256": "8682e3781669ce90ae09d75bd29d3b67769da6048e21828fc0899e99c9300727"
+  },
+  {
+    "file": "qa/real-cafe-redesign/production-metadata.json",
+    "bytes": 2514,
+    "sha256": "5e1ac3b649941cc7b1f8c8cde2af2d940535675a0d2183b2c5ea5ed8cc44cc6c"
+  },
+  {
+    "file": "qa/real-cafe-redesign/tests.log",
+    "bytes": 4290,
+    "sha256": "13d9aff2bfd36df42b779a6058fd584afc900100258d6e28ce4515ec498bfab9"
+  },
+  {
+    "file": "qa/real-cafe-redesign/interaction-regression.log",
+    "bytes": 1192,
+    "sha256": "af37af0b135832f0bbca9bee0874e7a70eb2f4224a92db526bf5e9c38763f137"
+  },
+  {
+    "file": "qa/real-cafe-redesign/tests-final-built.log",
+    "bytes": 5850,
+    "sha256": "e4c5073dd74469bf6d00a2a47d6c48d686afbea3179cd8ae2589d7bef84bee1d"
+  },
+  {
+    "file": "qa/real-cafe-redesign/final-tablet-state-rerun.log",
+    "bytes": 343,
+    "sha256": "77bab5ac386d3329e74aaf6a5d75787cc04e57562295bbb867db51ae02c14aa9"
+  },
+  {
+    "file": "qa/real-cafe-redesign/final-run-diagnostics/tablet-state-timeout.md",
+    "bytes": 380,
+    "sha256": "deff8ea3aedd5711cbc7a0831b9dd00425e95ada270f07ffacfc78ec368f1f19"
+  },
+  {
+    "file": "qa/real-cafe-redesign/build-final.log",
+    "bytes": 866,
+    "sha256": "587429bef70beb592c963f9b4746e786c2fdc3eda5105768d4dbf2ea4b71da19"
+  },
+  {
+    "file": "qa/real-cafe-redesign/layout-audit.json",
+    "bytes": 5027,
+    "sha256": "00fb4554f8c319ed667eac9f8dec3871cd10c1364e2d629dd8851e2997be744d"
+  },
+  {
+    "file": "qa/real-cafe-redesign/touch-check.json",
+    "bytes": 394,
+    "sha256": "3ec845b271b91df2b5bd23bf6da6b77737ccbf45bc5ce98ac37b531d8a191f59"
+  },
+  {
+    "file": "qa/real-cafe-redesign/states.json",
+    "bytes": 3080,
+    "sha256": "6378e0b260195e5dce83c2142fe4db545a606f0a6a17b7a6b90b7385d916de13"
+  }
+]

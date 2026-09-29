@@ -1,0 +1,45 @@
+
+> yohaku-theater-cafe@1.0.0 test
+> playwright test
+
+
+Running 30 tests using 1 worker
+
+(node:86004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › qa/site.spec.js:4:1 › five pages render without runtime errors, missing images or horizontal overflow (8.2s)
+  ✓   2 [desktop] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (7.2s)
+  ✓   3 [desktop] › qa/site.spec.js:25:1 › rental dates, unavailable days, month navigation and inquiry handoff (8.1s)
+  ✓   4 [desktop] › qa/site.spec.js:37:1 › contact validation, escaped content, correction and no submission (7.5s)
+  ✓   5 [desktop] › qa/site.spec.js:48:1 › journal add/edit persistence, safe text and JSON export (8.0s)
+  ✓   6 [desktop] › qa/site.spec.js:59:1 › mobile navigation and linked article (3.4s)
+  ✓   7 [desktop] › qa/visual-layout.spec.js:4:1 › rendered text fits each viewport and grouped phrases remain intact (3.6s)
+  ✓   8 [desktop] › qa/visual-layout.spec.js:16:1 › entrance frames, hover and reduced motion render correctly (7.3s)
+  ✓   9 [desktop] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds (11.5s)
+  ✓  10 [desktop] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (3.8s)
+(node:86101) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [tablet] › qa/site.spec.js:4:1 › five pages render without runtime errors, missing images or horizontal overflow (8.0s)
+  ✓  12 [tablet] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (6.9s)
+  ✓  13 [tablet] › qa/site.spec.js:25:1 › rental dates, unavailable days, month navigation and inquiry handoff (7.9s)
+  ✓  14 [tablet] › qa/site.spec.js:37:1 › contact validation, escaped content, correction and no submission (7.6s)
+  ✓  15 [tablet] › qa/site.spec.js:48:1 › journal add/edit persistence, safe text and JSON export (8.4s)
+  ✓  16 [tablet] › qa/site.spec.js:59:1 › mobile navigation and linked article (3.3s)
+  ✓  17 [tablet] › qa/visual-layout.spec.js:4:1 › rendered text fits each viewport and grouped phrases remain intact (4.0s)
+  ✓  18 [tablet] › qa/visual-layout.spec.js:16:1 › entrance frames, hover and reduced motion render correctly (5.3s)
+  ✓  19 [tablet] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds (11.1s)
+  ✓  20 [tablet] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (3.4s)
+(node:86184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [mobile] › qa/site.spec.js:4:1 › five pages render without runtime errors, missing images or horizontal overflow (7.6s)
+  ✓  22 [mobile] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (8.7s)
+  ✓  23 [mobile] › qa/site.spec.js:25:1 › rental dates, unavailable days, month navigation and inquiry handoff (10.6s)
+  ✓  24 [mobile] › qa/site.spec.js:37:1 › contact validation, escaped content, correction and no submission (10.1s)
+  ✓  25 [mobile] › qa/site.spec.js:48:1 › journal add/edit persistence, safe text and JSON export (10.0s)
+  ✓  26 [mobile] › qa/site.spec.js:59:1 › mobile navigation and linked article (6.9s)
+  ✓  27 [mobile] › qa/visual-layout.spec.js:4:1 › rendered text fits each viewport and grouped phrases remain intact (5.5s)
+  ✓  28 [mobile] › qa/visual-layout.spec.js:16:1 › entrance frames, hover and reduced motion render correctly (7.0s)
+  ✓  29 [mobile] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds (11.1s)
+  ✓  30 [mobile] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (4.5s)
+
+  30 passed (3.9m)

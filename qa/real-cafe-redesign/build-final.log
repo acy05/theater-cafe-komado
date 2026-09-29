@@ -1,0 +1,20 @@
+
+> komado-theater-cafe@1.0.0 build
+> vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 8 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/favicon-C0TLhVHk.svg           0.23 kB │ gzip: 0.20 kB
+dist/events.html                           4.24 kB │ gzip: 1.91 kB
+dist/journal.html                          5.08 kB │ gzip: 2.15 kB
+dist/contact.html                          5.13 kB │ gzip: 2.21 kB
+dist/space.html                            6.36 kB │ gzip: 2.79 kB
+dist/index.html                            7.70 kB │ gzip: 3.11 kB
+dist/assets/komado-coffee-VdQ2sSSy.webp  174.94 kB
+dist/assets/komado-cafe-Dy-ZF3PC.webp    201.35 kB
+dist/assets/app-DDpr_AfE.css              34.59 kB │ gzip: 7.47 kB
+dist/assets/app-BK4ljhPt.js               17.68 kB │ gzip: 7.15 kB
+✓ built in 436ms

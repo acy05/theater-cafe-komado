@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test';
+export default defineConfig({testDir:'./qa',fullyParallel:false,workers:1,reporter:'list',use:{baseURL:process.env.QA_URL||'http://127.0.0.1:4188',browserName:'chromium',channel:'chrome',headless:true},projects:[{name:'desktop',use:{viewport:{width:1440,height:1000}}},{name:'tablet',use:{viewport:{width:820,height:1180},hasTouch:true}},{name:'mobile',use:{viewport:{width:390,height:844},isMobile:true,hasTouch:true}}]});

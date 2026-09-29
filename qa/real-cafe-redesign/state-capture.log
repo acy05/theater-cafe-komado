@@ -1,0 +1,157 @@
+[
+  {
+    name: 'desktop',
+    key: 'event-details',
+    width: 1440,
+    scroll: 1440,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'desktop',
+    key: 'event-confirm',
+    width: 1440,
+    scroll: 1440,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  { name: 'desktop', key: 'back-retains-count', count: '3' },
+  {
+    name: 'desktop',
+    key: 'rental-confirm',
+    width: 1440,
+    scroll: 1440,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'desktop',
+    key: 'contact-confirm',
+    width: 1440,
+    scroll: 1440,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'desktop',
+    key: 'article',
+    width: 1440,
+    scroll: 1440,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'tablet',
+    key: 'menu',
+    width: 820,
+    scroll: 820,
+    dialogOverflow: false,
+    closeVisible: null
+  },
+  {
+    name: 'tablet',
+    key: 'cafe-anchor',
+    width: 820,
+    scroll: 820,
+    dialogOverflow: false,
+    closeVisible: null
+  },
+  {
+    name: 'tablet',
+    key: 'event-details',
+    width: 820,
+    scroll: 820,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'tablet',
+    key: 'event-confirm',
+    width: 820,
+    scroll: 820,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  { name: 'tablet', key: 'back-retains-count', count: '3' },
+  {
+    name: 'tablet',
+    key: 'rental-confirm',
+    width: 820,
+    scroll: 820,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'tablet',
+    key: 'contact-confirm',
+    width: 820,
+    scroll: 820,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'tablet',
+    key: 'article',
+    width: 820,
+    scroll: 820,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'mobile',
+    key: 'menu',
+    width: 390,
+    scroll: 390,
+    dialogOverflow: false,
+    closeVisible: null
+  },
+  {
+    name: 'mobile',
+    key: 'cafe-anchor',
+    width: 390,
+    scroll: 390,
+    dialogOverflow: false,
+    closeVisible: null
+  },
+  {
+    name: 'mobile',
+    key: 'event-details',
+    width: 390,
+    scroll: 390,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'mobile',
+    key: 'event-confirm',
+    width: 390,
+    scroll: 390,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  { name: 'mobile', key: 'back-retains-count', count: '3' },
+  {
+    name: 'mobile',
+    key: 'rental-confirm',
+    width: 390,
+    scroll: 390,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'mobile',
+    key: 'contact-confirm',
+    width: 390,
+    scroll: 390,
+    dialogOverflow: false,
+    closeVisible: true
+  },
+  {
+    name: 'mobile',
+    key: 'article',
+    width: 390,
+    scroll: 390,
+    dialogOverflow: false,
+    closeVisible: true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "selected_route": "minimal",
+  "fallback_route": null,
+  "escalated_to": null,
+  "blocked_due_to_routing": false,
+  "model_decision": "gpt-5.6-terra",
+  "reasoning_effort": "medium",
+  "model_source": "production_verified_allowlist instruction; provider telemetry not exposed",
+  "delegated_agents": 0,
+  "skills_used": [],
+  "mcp_used": [],
+  "status": "UNVERIFIED_PROVISIONAL",
+  "scope": "five-page local frontend prototype",
+  "unmet_gate": ["production hosting compatibility", "live reservation persistence and concurrency", "mail delivery", "shared CMS authentication", "client content and design approval"],
+  "incomplete_verification": ["real mobile hardware", "production domain/server", "cross-browser engines"],
+  "independence_not_proven": true,
+  "insufficient_evidence": ["raw provider usage events unavailable", "turn token delta unavailable", "account quota savings not demonstrated"],
+  "quality_not_verified": ["production readiness"],
+  "existing_formal_results_overwritten": false
+}

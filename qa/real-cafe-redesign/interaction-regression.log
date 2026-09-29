@@ -1,0 +1,17 @@
+
+Running 6 tests using 1 worker
+
+(node:86310) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (8.1s)
+  ✓  2 [desktop] › qa/site.spec.js:60:1 › mobile navigation and linked article (3.5s)
+(node:86337) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [tablet] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (8.5s)
+  ✓  4 [tablet] › qa/site.spec.js:60:1 › mobile navigation and linked article (6.2s)
+(node:86365) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [mobile] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (9.5s)
+  ✓  6 [mobile] › qa/site.spec.js:60:1 › mobile navigation and linked article (12.3s)
+
+  6 passed (1.0m)

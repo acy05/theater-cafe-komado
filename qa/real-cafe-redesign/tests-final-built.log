@@ -1,0 +1,67 @@
+
+> komado-theater-cafe@1.0.0 test
+> playwright test
+
+
+Running 30 tests using 1 worker
+
+(node:86948) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › qa/site.spec.js:4:1 › five pages render without runtime errors, missing images or horizontal overflow (8.1s)
+  ✓   2 [desktop] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (9.6s)
+  ✓   3 [desktop] › qa/site.spec.js:26:1 › rental dates, unavailable days, month navigation and inquiry handoff (7.9s)
+  ✓   4 [desktop] › qa/site.spec.js:38:1 › contact validation, escaped content, correction and no submission (7.5s)
+  ✓   5 [desktop] › qa/site.spec.js:49:1 › journal add/edit persistence, safe text and JSON export (8.7s)
+  ✓   6 [desktop] › qa/site.spec.js:60:1 › mobile navigation and linked article (3.5s)
+  ✓   7 [desktop] › qa/visual-layout.spec.js:4:1 › rendered text fits each viewport and grouped phrases remain intact (4.3s)
+  ✓   8 [desktop] › qa/visual-layout.spec.js:16:1 › entrance frames, hover and reduced motion render correctly (6.5s)
+  ✓   9 [desktop] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds (11.3s)
+  ✓  10 [desktop] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (3.5s)
+(node:87257) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [tablet] › qa/site.spec.js:4:1 › five pages render without runtime errors, missing images or horizontal overflow (8.7s)
+  ✓  12 [tablet] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (8.8s)
+  ✓  13 [tablet] › qa/site.spec.js:26:1 › rental dates, unavailable days, month navigation and inquiry handoff (7.4s)
+  ✓  14 [tablet] › qa/site.spec.js:38:1 › contact validation, escaped content, correction and no submission (7.8s)
+  ✓  15 [tablet] › qa/site.spec.js:49:1 › journal add/edit persistence, safe text and JSON export (8.7s)
+  ✓  16 [tablet] › qa/site.spec.js:60:1 › mobile navigation and linked article (6.3s)
+  ✓  17 [tablet] › qa/visual-layout.spec.js:4:1 › rendered text fits each viewport and grouped phrases remain intact (4.0s)
+  ✓  18 [tablet] › qa/visual-layout.spec.js:16:1 › entrance frames, hover and reduced motion render correctly (6.7s)
+  ✘  19 [tablet] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds (35.3s)
+(node:87458) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [tablet] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (9.0s)
+(node:87477) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [mobile] › qa/site.spec.js:4:1 › five pages render without runtime errors, missing images or horizontal overflow (15.6s)
+  ✓  22 [mobile] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (14.9s)
+  ✓  23 [mobile] › qa/site.spec.js:26:1 › rental dates, unavailable days, month navigation and inquiry handoff (12.4s)
+  ✓  24 [mobile] › qa/site.spec.js:38:1 › contact validation, escaped content, correction and no submission (11.6s)
+  ✓  25 [mobile] › qa/site.spec.js:49:1 › journal add/edit persistence, safe text and JSON export (13.0s)
+  ✓  26 [mobile] › qa/site.spec.js:60:1 › mobile navigation and linked article (10.4s)
+  ✓  27 [mobile] › qa/visual-layout.spec.js:4:1 › rendered text fits each viewport and grouped phrases remain intact (5.8s)
+  ✓  28 [mobile] › qa/visual-layout.spec.js:16:1 › entrance frames, hover and reduced motion render correctly (8.1s)
+  ✓  29 [mobile] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds (20.4s)
+  ✓  30 [mobile] › qa/visual-layout.spec.js:52:1 › keyboard skip link is focusable, visible on focus and reaches the content (4.5s)
+
+
+  1) [tablet] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Target page, context or browser has been closed
+
+      44 |  for(let i=0;i<12;i++)await page.locator('[data-month="1"]').click();
+      45 |  await expect(page.locator('#calendar-month')).toHaveText('2027年 11月');await expect(page.locator('[data-month="1"]')).toBeDisabled();
+    > 46 |  for(let i=0;i<12;i++)await page.locator('[data-month="-1"]').click();
+         |                                                               ^
+      47 |  await expect(page.locator('#calendar-month')).toHaveText('2026年 11月');await expect(page.locator('[data-month="-1"]')).toBeDisabled();
+      48 |  await page.locator('[data-date="2026-11-28"]').click();await expect(page.locator('[data-date="2026-11-28"]')).toBeFocused();
+      49 |  const button=page.locator('.slot').first();await button.click();await expect(page.locator('dialog')).toBeVisible();
+        at /Users/ajisakacaioyuuki/Documents/ChatGPT/商談前/theater-cafe-yohaku/qa/visual-layout.spec.js:46:63
+
+    Error Context: test-results/visual-layout-state-transi-f1bf0-etition-and-calendar-bounds-tablet/error-context.md
+
+  1 failed
+    [tablet] › qa/visual-layout.spec.js:36:1 › state transitions support rapid repetition and calendar bounds 
+  29 passed (5.3m)

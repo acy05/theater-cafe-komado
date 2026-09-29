@@ -1,0 +1,11 @@
+{
+  "checked": 67,
+  "missing": [],
+  "built_http": {
+    "index": 200,
+    "events": 200,
+    "space": 200,
+    "journal": 200,
+    "contact": 200
+  }
+}

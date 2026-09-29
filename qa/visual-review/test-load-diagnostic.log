@@ -1,0 +1,20 @@
+
+> yohaku-theater-cafe@1.0.0 test
+> playwright test
+
+
+Running 27 tests using 1 worker
+
+(node:82347) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › qa/site.spec.js:4:1 › five pages render without runtime errors, missing images or horizontal overflow (24.4s)
+  ✓   2 [desktop] › qa/site.spec.js:15:1 › event filters, price calculation, confirmation, completion and Escape (17.1s)
+  ✘   3 [desktop] › qa/site.spec.js:25:1 › rental dates, unavailable days, month navigation and inquiry handoff (35.7s)
+(node:82601) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [desktop] › qa/site.spec.js:37:1 › contact validation, escaped content, correction and no submission (36.7s)
+(node:82699) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [desktop] › qa/site.spec.js:48:1 › journal add/edit persistence, safe text and JSON export (35.7s)
+(node:82803) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
