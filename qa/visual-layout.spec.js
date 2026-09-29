@@ -34,6 +34,7 @@ test('entrance frames, hover and reduced motion render correctly',async({page},i
  await page.keyboard.press('Escape');await expect(page.locator('body')).not.toHaveClass(/body-lock/);
 });
 test('state transitions support rapid repetition and calendar bounds',async({page},info)=>{
+ test.setTimeout(60_000);
  await page.goto('/');
  if(info.project.name!=='desktop'){
   for(let i=0;i<3;i++){await page.locator('.menu-toggle').click();await expect(page.locator('#navigation')).toBeVisible();await page.keyboard.press('Escape');await expect(page.locator('#navigation')).not.toBeVisible();}

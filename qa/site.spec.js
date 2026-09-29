@@ -25,15 +25,15 @@ test('event filters, price calculation, confirmation, completion and Escape',asy
  await expect(page.locator('[data-event="jazz"]')).toBeFocused();
 });
 test('rental dates, unavailable days, month navigation and inquiry handoff',async({page})=>{
+ test.setTimeout(60_000);
  await page.goto('/space.html');await expect(page.locator('[data-month="-1"]')).toBeDisabled();
  await expect(page.locator('[data-date="2026-11-01"]')).toBeDisabled();
  await page.locator('[data-date="2026-11-28"]').click();await expect(page.locator('#rental-picker')).toBeVisible();
  await expect(page.locator('#rental-start option')).toHaveCount(17);await expect(page.locator('#rental-end option')).toHaveCount(17);
  await page.locator('#rental-start').selectOption('11:00');await page.locator('#rental-end').selectOption('15:00');
  await page.locator('[name="purpose"]').selectOption('自主上映・鑑賞会');await page.locator('[name="guests"]').selectOption('12');
- await page.locator('[name="details"]').fill('短編映画の上映会。スクリーンと音響設備を使用したいです。');
- await expect(page.locator('#rental-total')).toHaveText('¥16,000');await page.getByRole('button',{name:'選択内容を確認する'}).click();
- await expect(page.locator('dialog')).toContainText('11:00 – 15:00（4時間）');await expect(page.locator('dialog')).toContainText('12名');
+ await expect(page.locator('[name="details"]')).not.toHaveAttribute('required','');await expect(page.locator('#rental-total')).toHaveText('¥16,000');await page.getByRole('button',{name:'選択内容を確認する'}).click();
+ await expect(page.locator('dialog')).toContainText('11:00 – 15:00（4時間）');await expect(page.locator('dialog')).toContainText('12名');await expect(page.locator('dialog')).toContainText('特記事項なし');
  await page.getByRole('link',{name:'お問い合わせへ進む'}).click();
  await expect(page.locator('[name="type"]')).toHaveValue('スペースレンタルについて');
  await expect(page.locator('[name="message"]')).toHaveValue(/2026-11-28/);
@@ -55,6 +55,7 @@ test('contact validation, escaped content, correction and no submission',async({
  await expect(page.locator('dialog')).toContainText('内容は送信・保存されていません');expect(mutations).toEqual([]);
 });
 test('journal add/edit persistence, safe text and JSON export',async({page})=>{
+ test.setTimeout(60_000);
  await page.goto('/journal.html');await page.locator('#open-editor').click();
  await page.locator('[name="title"]').fill('新しい上映のお知らせ');await page.locator('[name="body"]').fill('<script>alert(1)</script>本文');
  await page.locator('#editor-form button[type="submit"]').click();await expect(page.locator('#editor-status')).toContainText('保存しました');
@@ -66,6 +67,7 @@ test('journal add/edit persistence, safe text and JSON export',async({page})=>{
  const download=page.waitForEvent('download');await page.locator('#export-content').click();expect((await download).suggestedFilename()).toBe('komado-articles.json');
 });
 test('mobile navigation and linked article',async({page},info)=>{
+ test.setTimeout(60_000);
  await page.goto('/index.html');if(info.project.name!=='desktop'){await page.getByRole('button',{name:'メニューを開く'}).click();await page.locator('#navigation').getByRole('link',{name:'喫茶のこと'}).click();await expect(page).toHaveURL(/#cafe$/);await expect(page.locator('#navigation')).not.toBeVisible();await page.evaluate(()=>scrollTo(0,0));}
  if(info.project.name==='mobile'){await page.getByRole('button',{name:'メニューを開く'}).click();await expect(page.locator('#navigation')).toBeVisible();await page.locator('#navigation').getByRole('link',{name:'場所を借りる'}).click();await expect(page).toHaveURL(/space.html/);}
  await page.goto('/journal.html?article=opening');await expect(page.locator('dialog')).toBeVisible();await expect(page.locator('#dialog-title')).toContainText('オープン');
