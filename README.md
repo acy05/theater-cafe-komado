@@ -2,6 +2,9 @@
 
 実在する小さな映画館・シアターカフェの公式サイトを参照し、店舗像と情報設計から作り直した5ページの制作プレビューです。「こまど」は仮称です。
 
+公開サイト: https://acy05.github.io/theater-cafe-komado/
+GitHub: https://github.com/acy05/theater-cafe-komado
+
 ## 起動と確認
 
 ```sh
