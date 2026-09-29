@@ -41,7 +41,7 @@ test('rental dates, unavailable days, month navigation and inquiry handoff',asyn
  await expect(page.locator('.inquiry-summary')).toContainText('12名');
  await page.goto('/space.html');await page.locator('[data-month="1"]').click();await expect(page.locator('#calendar-month')).toHaveText('2026年 12月');
  await expect(page.locator('[data-date="2026-12-01"]')).toBeDisabled();
- await page.locator('[data-date="2026-12-03"]').click();await expect(page.locator('#rental-start')).toHaveValue('14:00');await expect(page.locator('#rental-start option')).toHaveCount(1);await expect(page.locator('#rental-end')).toHaveValue('17:00');
+ await page.locator('[data-date="2026-12-03"]').click();await expect(page.locator('.availability-note')).toContainText('10:00〜14:00 と 16:00〜21:00');expect(await page.locator('#rental-start option').evaluateAll(options=>options.map(option=>option.value))).toEqual(['10:00','10:30','11:00','16:00','16:30','17:00','17:30','18:00']);await page.locator('#rental-start').selectOption('16:00');expect(await page.locator('#rental-end option').evaluateAll(options=>options.map(option=>option.value))).toEqual(['19:00','19:30','20:00','20:30','21:00']);await page.locator('#rental-end').selectOption('20:00');await expect(page.locator('#rental-total')).toHaveText('¥16,000');
 });
 test('contact validation, escaped content, correction and no submission',async({page})=>{
  const mutations=[];page.on('request',r=>{if(['POST','PUT','PATCH'].includes(r.method()))mutations.push(r.url());});
